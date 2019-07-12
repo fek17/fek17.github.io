@@ -45,14 +45,23 @@
   }
 }
 
-a {
-    text-decoration: none;
+a:link {
+  text-decoration: none;
     margin: 0;
     color: #FFF;
-    &:hover{
+}
+
+a:visited
+{
+  text-decoration: none;
+  margin: 0;
+    color: #FFF;
+}
+a:hover{
       color: $sec;
     }
-    &:active {
+ a:active {
       color: $sec;
     }
+
 }
