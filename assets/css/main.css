@@ -4468,11 +4468,10 @@ sub, sup {
     text-align: center;
     color: #fff;
     position: absolute;
-    margin: 0 auto;
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    translate(0%, 50%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .header .site-title {
